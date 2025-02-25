@@ -125,22 +125,22 @@ int main() {
     // Criação da lista
     Lista* minhaLista = criarLista();
 
-    //  Inserir elementos na lista
+    // Inserir elementos na lista
     printf("Inserindo elementos\n");
     inserirElemento(minhaLista, 1, 10);  // Insere na posição 1
     inserirElemento(minhaLista, 2, 20);  // Insere na posição 2
     inserirElemento(minhaLista, 2, 15);  // Insere na posição 2
     imprimirLista(minhaLista);  // resposta: 10 -> 15 -> 20 -> NULL
 
-    // Teste: Modificar o elemento na posição 2
+    //Modificar o elemento na posição 2
     printf("Modificando o elemento na posição 2 para 25\n");
     modificarElemento(minhaLista, 2, 25);
     imprimirLista(minhaLista);  // resposts: 10 -> 25 -> 20 -> NULL
 
-    //  Obter o valor de um elemento
+    // Obter o valor de um elemento
     printf("Elemento na posição 2: %d\n", obterElemento(minhaLista, 2)); 
 
-    //  Remover o elemento da posição 2
+    // Remover o elemento da posição 2
     printf("Removendo o elemento da posição 2\n");
     removerElemento(minhaLista, 2);
     imprimirLista(minhaLista);  // resposta: 10 -> 20 -> NULL
