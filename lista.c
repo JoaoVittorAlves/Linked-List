@@ -128,8 +128,8 @@ int main() {
     // Inserir elementos na lista
     printf("Inserindo elementos\n");
     inserirElemento(minhaLista, 1, 10);  // Insere na posição 1
-    inserirElemento(minhaLista, 2, 20);  // Insere na posição 2
     inserirElemento(minhaLista, 2, 15);  // Insere na posição 2
+    inserirElemento(minhaLista, 3, 20);  // Insere na posição 3
     imprimirLista(minhaLista);  // resposta: 10 -> 15 -> 20 -> NULL
 
     //Modificar o elemento na posição 2
